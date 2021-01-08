@@ -5,6 +5,11 @@
 `PORT`, `EMAIL`, `PASS`, `JWT_SECRET`, `MONGODB_URL`
 
 ## Postman
+  Set postman environment variable url=https://sourabh-kanojia-task-manager.herokuapp.com
+  Script:
+  `if(pm.response.code===201){
+       pm.environment.set('authToken',pm.response.json().token)
+     }`
 
 ## Endpoints
 
