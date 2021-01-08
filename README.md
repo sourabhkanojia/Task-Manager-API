@@ -2,7 +2,7 @@
 
 ## Environment Variables Config
 
-PORT, EMAIL, PASS, JWT_SECRET, MONGODB_URL
+`PORT`, `EMAIL`, `PASS`, `JWT_SECRET`, `MONGODB_URL`
 
 ## Endpoints
 
