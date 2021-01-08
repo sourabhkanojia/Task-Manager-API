@@ -15,11 +15,6 @@ if (pm.response.code === response) {
 //For Create User response = 201
 //For Login User response = 200
 ```
-
-## Endpoints
-
-Requires a valid JWT token as an HTTP request header , which is sent from the authorization endpoints in the response body.
-
 ### Authorization
   * Create user                     - `POST /users`
   * Login user                      - `POST /users/login`
