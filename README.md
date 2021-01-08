@@ -7,7 +7,7 @@
 ## Postman
   Set postman environment variable url=https://sourabh-kanojia-task-manager.herokuapp.com
   
-* Set Script:
+* Set Test Script:
 ```js
 if (pm.response.code === response) {
     pm.environment.set('authToken', pm.response.json().token)
