@@ -4,6 +4,8 @@
 
 `PORT`, `EMAIL`, `PASS`, `JWT_SECRET`, `MONGODB_URL`
 
+## Postman
+
 ## Endpoints
 
 Requires a valid JWT token as an HTTP request header , which is sent from the authorization endpoints in the response body.
