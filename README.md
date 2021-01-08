@@ -1,5 +1,9 @@
 # Task-Manager-API
 
+## Environment Variables Config
+
+PORT, EMAIL, PASS, JWT_SECRET, MONGODB_URL
+
 ## Endpoints
 
 Requires a valid JWT token as an HTTP request header , which is sent from the authorization endpoints in the response body.
