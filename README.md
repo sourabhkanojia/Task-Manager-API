@@ -16,7 +16,7 @@ Requires a valid JWT token as an HTTP request header , which is sent from the au
   * Upload avatar                   - `POST /users/me/avatar`
   * Delete avatar                   - `DELETE /users/me/avatar`
   * Get user avatar                 - `GET /users/:id/avatar`
-* Task management 
+### Task management 
   * Create task                     - `POST /tasks`
   * Read tasks                      - `GET /tasks`
     * completed       - `Boolean`
